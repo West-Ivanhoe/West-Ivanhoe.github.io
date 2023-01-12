@@ -1,8 +1,16 @@
-body{
-    background-color: #232325; ;
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-  }
-  
+
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    td {
+        width: 100%;
+        display: block;
+    }
+}
