@@ -6,21 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netball Size Charts:</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $(".menu-btn").click(function() {
+                $(".menu-content").toggle();
+            });
+        });
+    </script>
 </head>
 <body>
+    <div class="menu">
+        <button class="menu-btn">
+        colapse / expand contents
+         </button>
+            West Ivanhoe Netball Club sizing charts
+            <div class="menu-content">
+                <ul class="list-b">
+                    <hr>
+                    <li><a href="#dress">Dress</a></li>
+                    <hr>
+                    <li><a href="#children-tshirts">Children's T-shirts</a></li>
+                    <hr>
+                    <li><a href="#womens-tshirts">Women's T-shirts</a></li>
+                    <hr>
+                    <li><a href="#skirts">Skirts</a></li>
+                    <hr>
+                    <li><a href="#shorts">Shorts</a></li>
+                    <hr>
+                    <li><a href="#sizing-tips">Sizing tips</a></li>
+                    <hr>
+                    <li><a href="#adult-hoodie">Adult Hoodie</a></li>
+                    <hr>
+                    <li><a href="#child-hoodie">Child Hoodie</a></li>
+                    <hr>
+                </ul>
+            </div>
+    </div>
     <div class="container">
-        <h2> Dress:</h2>
-        <img src="resources/dress.png" alt="there." width="500px">
-        <h2> Children's T-shirts:</h2>
-        <img src="resources/T-shirt - Childrens Sizing Chart.PNG" width="500px">
-        <h2> Women's T-shirts:</h2>
-        <img src="resources/women tshirt.png" width="500px">
-        <h2>Skirts:</h2>
-        <img src="resources/fastion skirt.png" width="500px">
-        <h2>Shorts:</h2>
-        <img src="resources/shorts.png" width="500px">
-        <h2>Sizing tips:</h2>
-        <img src="resources/sizing tips.png" width="500px">
+        <hr>
+    
+    <h2 id="dress">Dress:</h2>
+    <img src="resources/dress.png" alt="there." width="500px">
+    <hr>
+    
+    <h2 id="children-tshirts">Children's T-shirts:</h2>
+    <img src="resources/T-shirt - Childrens Sizing Chart.PNG" width="500px">
+    <hr>
+    
+    <h2 id="womens-tshirts">Women's T-shirts:</h2>
+    <img src="resources/women tshirt.png" width="500px">
+    <hr>
+    
+    <h2 id="skirts">Skirts:</h2>
+    <img src="resources/fastion skirt.png" width="500px">
+    <hr>
+    
+    <h2 id="shorts">Shorts:</h2>
+    <img src="resources/shorts.png" width="500px">
+    <hr>
+    
+    <h2 id="sizing-tips">Sizing tips:</h2>
+    <img src="resources/sizing tips.png" width="500px">
+    <hr>
+    
+    <h2 id="adult-hoodie">Adult Hoodie:</h2>
+    <img src="resources/hoodie-adult.png" width="500px">
+    <hr>
+    
+    <h2 id="child-hoodie">Child Hoodie:</h2>
+    <img src="resources/hoodie-child.png" width="500px">
+    <hr>        
+        
     </div>
 
 </body>
